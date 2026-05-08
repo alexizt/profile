@@ -37,7 +37,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build site
         run: |
-          echo "window.APP_CONFIG = { apiKey: '$MY_SECRET' };" > public/config.js        
+          echo "window.APP_CONFIG = { apiKey: '$MY_SECRET' };" > /config.js        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
