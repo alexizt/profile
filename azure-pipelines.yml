@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: SelfHosted
+  vmImage: Default
 
 steps:
 - task: ArchiveFiles@2
